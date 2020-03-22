@@ -1,0 +1,36 @@
+
+section a{
+	text-decoration: none;
+	color: orange;
+	font-family: arial;
+	font-size: 16px;
+}
+a:hover{
+	text-decoration: underline;
+}
+#sidebar{
+	float: right;
+	padding: 0px, 0px, 10px, 0px;
+}
+#wrap{
+	width: 960px;
+	margin: auto;
+	background: #0000FF;
+	padding: 10px 20px;
+	overflow: hidden;
+}
+.RBTech{
+	color: #FF8000;
+	text-decoration: none;
+}
+#footer{
+	margin: auto;
+	padding: 10px 30px 10px 170px;
+	overflow: hidden;
+	background: #FF0000;
+	width: 800px;
+	clear: both;
+}
+aside a:hover{
+	text-decoration: underline;
+}

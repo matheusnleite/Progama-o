@@ -1,0 +1,62 @@
+body{
+	font-family: Helvetica, sans-serif;
+}
+a:link, a:visited{
+	color: #ff6600
+	text-decoration: none;
+}
+a:hover{
+	text-decoration: underline;
+}
+#wrap{
+	width: 960px;
+	margin: auto;
+	background: #e3e3e3;
+	padding: 10px 20px;
+	overflow: hidden;
+}
+
+	
+	header nav ul {
+		list-style: none;
+		padding-left: 0;
+	}
+	header nav ul li{
+		display: inline-block;
+		margin-right: 10px;
+	}
+	header nav ul li a{
+		font-size: 18px	
+	}
+	#content{
+		float: left;
+		width: 660px;	
+	}
+	#sidebar{
+		float: right;
+		width: 300px;
+	}
+	#sidebar ul{
+		list-style: none;
+	}	
+	footer{
+		clear: both;
+	}
+	/* width= tamanho
+		margin= margem externa, no sentido do relógio= top,direita,baixo,esquerda, se colocar uma medida ela sera definida para todos, duas medidas serão definidas= 1ª medida= top,direita 2ª medida= baixo,esqueda
+		background= cor do fundo
+		padding= distancia interna da margem, as medidas são a mesma coisa da margin.
+		 list-style: none= nenhum estilo na lista
+		 display: inline-block= alinhar em linha
+		 font= family= estilo/ size= tamanho.
+		 Float: posição (em inglês), flutuar em qualquer posição.
+		 overflow: hidden= o que ultrapassar os limites das DIVs é para ficar invisível.
+		 clear: both {limpar as flutuações anteriores a este elemento}= (neste caso), colocar o rodapé embaixo.
+		 hover= flutuar (quando posicionar o mouse em cima).
+		 a:link, a:visited{
+	     color: #ff6600
+	     text-decoration: none;
+         }
+         a:hover{
+	     text-decoration: underline;
+         (jeito resumido de vc falar para quando posicionar o mouse emcima ele reagir e mudar a cor da letra.)                            }/*

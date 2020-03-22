@@ -1,0 +1,14 @@
+	a{
+				color: red;
+				text-decoration: none;
+				font-size: 18px;}
+			h1{
+				font-family: helvetica, sans-serif;
+			}
+
+			#segundo{color: black;}
+
+			body p a.link{color: green;}
+
+			/* css é lido de CIMA para BAIXO, IDs= #nome{color: cor (inglês);}
+										      Classes= .nome{color: cor (inglês);}. Se vc quiser que apenas as classes com tag "a" mudem, basta colocar assim= a.nome{color: cor (inglês);}*/

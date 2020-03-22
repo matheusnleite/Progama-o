@@ -1,0 +1,37 @@
+<!doctype html>
+
+<html>
+	<head>
+		<title>Trabalho com formulários</title>
+		<meta charset="utf-8" />
+		<link rel="stylesheet" type="text/css" href="10-estilo do formulário.css" />
+	</head>
+
+	<body>
+		<form action="" method="get">
+			<label for="nome">Nome:</label>
+			<input id="nome" type="text" placeholder="Digite seu nome" name="nome" />
+			<label for="opção">Você gostou do site?</label>
+			<input type="radio" name="opção" value="sim" checked="checked" />Sim
+			<input type="radio" name="opção" value="não"/>Não
+			<label for="linguagem">Você quer aprender mais sobre:</label>
+			<input type="checkbox" name="html">HTML
+			<input type="checkbox" name="css">CSS
+			<textarea name="msg"></textarea>
+			<input type="submit" value="Enviar" />
+		</form>
+	</body>
+</html>
+
+<!---Form: tag para formulário
+	-action: destino que vai processar o formulário, se vc deixar em branco o destino será essa página.
+	-Method: jeito que a informação vai ser enviada através do action{post (envia as informações em background, escondidas na página de forma que só a linguagem de progamação consiga ver.) ou get (envia as informações de um jeito que o navegador consiga mostra-las no endereço da página.)} * os formulários tb podem ter IDs, classes e etc.
+	-Input: campo usado para texto junto com o type: text.
+	-Input type="submit": botão de envio, value: valor(no caso é Enviar).
+	-Input name: nome do campo.
+	-Label: etiquetas que vão identificar o que o campo deve receber de informação.
+	-Placeholder: auxiliar para dizer o que vc pode colocar dentro daquele campo.
+	-For= "nome"/id= "nome": quando vc clicar na label, o cursor ir automáticamente para a caixa de texto.
+	-Botão de rádio= vc so pode marar um opção: linha 14-16/ checked:"checked"= serve para dizer que a opção ja venha marcada automáticamente.
+	-Ckeckbox= marcar várias opções e desmarcar se quiser: linhas 17-19.
+	-Textarea= igual ao input só que para uma informação maior, linha: 20-->

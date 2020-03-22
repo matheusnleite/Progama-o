@@ -1,0 +1,23 @@
+label, input[type=submit], input[type=text], textarea{
+	display: block;
+}
+textarea{
+	width: 300px;
+	height: 80px;
+}
+input[type=submit]{
+	background: #333333;
+	color: #ffffff;
+	cursor: pointer;
+	padding: 10px 20px;
+	border: 0;
+}
+input[type=submit]:hover{
+	background: #ff6600;/*quando passa o mouse em cima ele fica de outra cor*/
+}
+/*-Display: block;= mostrar em blocos.
+  -Input[type=nome]= dizer que dos inputs, apenas os de type= nome devem...(comando)
+  -Para definir o valor da textarea, vc pode usar css ou na própria página mesmo.
+  -Cursor: pointer;= cursor em formato de mãozinha.
+  -Padding: 1º medida= tudo, em cima, em cima e em baixo/ 2º= direita, esquerda...
+  -Border= borda.*/

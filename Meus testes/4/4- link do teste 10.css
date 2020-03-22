@@ -1,0 +1,16 @@
+label, input[type=text], input[type=submit]{
+	display: block;
+}
+input[type=submit]{
+	background: black;
+	color: green;
+	cursor: pointer;
+	border: 0;
+	padding: 10px 20px;
+}
+input[type=submit]:hover{
+	background: green;
+	color: black;
+	border: 5;
+	padding: 13px 23px;
+}
