@@ -17,3 +17,15 @@
 .botao1{
     background-color: saddlebrown;
 }
+body{
+    background-color: rgb(109, 187, 255);
+}
+.margin{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.empresa{
+    background-color: rgb(156, 156, 156);
+    border-radius: 5px;
+    padding: 10px;
+}
