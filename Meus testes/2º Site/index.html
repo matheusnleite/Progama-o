@@ -4,17 +4,18 @@
         <meta charset="utf-8">
         <link rel="stylesheet" href="css/bootstrap/css/bootstrap.min.css">
         <link rel="stylesheet" href="css/estilo.css">
+        <link rel="stylesheet" href="css/Normalize.css">
         <title>Home</title>
     </head>
     <body class="text-center">
         <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
             <header class="masthead mb-auto menu">
               <div class="inner padding">
-                <h3 class="masthead-brand text-center">Cover</h3>
+                <h3 class="masthead-brand text-center">MTech</h3>
                 <nav class="nav nav-masthead justify-content-center">
-                  <a class="nav-link" href="index.html">Home</a>
-                  <a class="nav-link" href="#complemento">Seviços</a>
-                  <a class="nav-link" href="#">História</a>
+                  <a class="nav-link link2" href="index.html">Home</a>
+                  <a class="nav-link link2" href="servicos.html">Seviços</a>
+                  <a class="nav-link link2" href="#">História</a>
                   <a href="">
                     <button type="button" class="btn btn-dark">Login</button>
                   </a>
@@ -26,7 +27,7 @@
             <div class="padding">
                 <main role="main" class="inner cover">
                     <h1 class="cover-heading">Última publicação:</h1>
-                    <p class="lead">O último trabalho feito por nós foina empresa X, ela nos contratou para fazermos o site de promoção do produto Y.</p><p class="lead"> Nosso prazo era de 30 dias para entregar o trabalho pronto e funcionando, nós conseguimos fazer em apenas 20 dias, e por isso a empresa X nos pagou um valor a mais pelo trabalho bem feito e rápido.</p></p>
+                    <p class="lead">O último trabalho feito por nós foi na empresa X, ela nos contratou para fazermos o site de promoção do produto Y.</p><p class="lead"> Nosso prazo era de 30 dias para entregar o trabalho pronto e funcionando, nós conseguimos fazer em apenas 20 dias, e por isso a empresa X nos pagou um valor a mais pelo trabalho bem feito e rápido.</p></p>
                     <p class="lead">
                     <a href="servicos.html" class="btn btn-lg btn-secondary">Leia mais &raquo;</a>
                     </p>
@@ -34,8 +35,16 @@
                     <div class="container">
                         <div class="row">
                             <div class="col-lg-4">
-                                <img src="img/microsoft.jpg" width="200" class="rounded-circle imagem" height="" alt="">
+                                <img src="img/microsoft.jpg" width="200" class="rounded-circle imagem"  alt="">
                                 <p class="margin empresa">Nosso trabalho na Microsoft</p>
+                            </div>
+                            <div class="col-lg-4">
+                                <img src="img/coca-cola.png" width="113" class="rounded-circle imagem" alt="">
+                                <p class="margin empresa">Nosso trabalho na Coca-Cola</p>
+                            </div>
+                            <div class="col-lg-4">
+                                <img src="img/dio.png" width="330" class="rounded-circle imagem" alt="">
+                                <p class="margin empresa">Nosso trabalho na Digital Inovation One</p>
                             </div>
                         </div>
                     </div>
@@ -47,14 +56,63 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-lg-7">
-                            <h2 class="text-left">Serviços</h2>
+                            <h2 class="text-left titulo1"><a href="servicos.html" class="link1">Serviços</a></h2>
                             <ul class="text-left">
-                                <li>Html</li>
-                                <li>Css</li>
+                                <li><a href="#html" class="link1">Html</a></li>
+                                <img src="img/html.jpg" class="padding" width="700" alt="">
+                                <img src="img/html2.jpeg" class="padding" width="700" alt="">
+                                <li><a href="#css" class="link1">Css</a></li>
+                                <img src="img/css.png" class="padding" width="700" alt="">
+                                <img src="img/css2.png" class="padding" width="700" alt="">
+                                <li><a href="#" class="link1">E mais</a></li>
                             </ul>
-                            <button type="button" class="btn botao1">Leia mais &raquo;</button>
+                        </div>
+                        <div class="col-lg-5">
+                            <h6>Contato:</h6>
+                            <a href="mailto:mtech@outlook.pt">mtech@outlook.pt</a>
+                            <form action="" class="formulario" method="get">
+                                <p class="margin2"><label for="">Escreva seu comentário:</label></p>
+                                <input type="text" placeholder="Digite seu comentário" class="boxwords text-center name="comentario">
+                            </form>
                         </div>
                     </div>
+                </div>
+            </div>
+        </div>
+        <div id="habilidades">
+            <div class="padding">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <div id="html">
+                                <h5 class="padding">Html</h5>
+                                <p>A linguagem de progamação web <em><strong>HTML</strong></em>, serve para construir páginas web.</p>
+                                <img src="img/html.jpg" width="900" class="padding img1" alt="" title="Html">
+                                <button type="button" class="btn botao1">Leia mais &raquo;</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <div id="css">
+                                    <h5 class="padding">Css</h5>
+                                    <p>O <em><strong>Css</strong></em> é uma linguagem que complementa o Html, ele permite criar estilos para a página web.</p>
+                                    <img src="img/css.png" width="900" class="padding img1" alt="" title="Css">
+                                    <button type="button" class="btn botao1">Leia mais &raquo;</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <footer>
+                        <p>&copy;Desenvolvido por Mtech | 2020</p>
+                    </footer>
                 </div>
             </div>
         </div>

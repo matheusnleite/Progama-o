@@ -10,12 +10,19 @@
 #complemento{
     background-color: rgb(189, 189, 189);
 }
+#habilidades{
+    background-color: rgb(189, 189, 189);
+}
 .padding{
     padding-top: 30px;
     padding-bottom: 30px;
 }
 .botao1{
-    background-color: saddlebrown;
+    background-color: rgb(145, 145, 145);
+    margin-left: -430px;
+}
+.botao1:hover{
+    background-color: rgb(129, 129, 129);
 }
 body{
     background-color: rgb(109, 187, 255);
@@ -28,4 +35,52 @@ body{
     background-color: rgb(156, 156, 156);
     border-radius: 5px;
     padding: 10px;
+}
+.cor-link{
+    color: black;
+}
+a:link, :visited, :hover{
+    text-transform: none;
+}
+.link1{
+    color: black;
+    background-color: rgb(156, 156, 156);
+    border-radius: 6px;
+    padding: 5px;
+}
+.link1:hover{
+    text-decoration: none;
+    color: rgb(129, 129, 129);
+    background-color: black;
+}
+.link2:hover{
+    color: rgb(145, 145, 145);
+}
+.boxwords{
+    border-radius: 7px;
+    border-color: black;
+}
+.formulario{
+    padding-top: 30px;
+}
+.margin2{
+    margin-bottom: -5px;
+}
+.img1:hover{
+    cursor: pointer;
+}
+footer{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.titulo1{
+    margin-bottom: 25px;
+}
+.txt1{
+    background-color: rgb(189, 189, 189);
+    margin-top: 10px;
+    border-radius: 15px;
+}
+.imagem{
+    margin-bottom: 13px;
 }
