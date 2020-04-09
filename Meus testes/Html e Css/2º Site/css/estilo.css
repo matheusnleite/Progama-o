@@ -84,3 +84,54 @@ footer{
 .imagem{
     margin-bottom: 13px;
 }
+#html2{
+    background-color: orangered;
+}
+.txt2{
+    font-size: 30px;
+    margin-right: 100px;
+    margin-left: 100px;
+}
+.botao2{
+    background-color: #ffffff;
+}
+.botao2:hover{
+    background-color: #DF7401;
+}
+#css2{
+    background-color: #118ec4;
+}
+#bootstrap{
+    background-color: #310d67;
+}
+.txt3{
+    font-size: 30px;
+    margin-right: 100px;
+    margin-left: 100px;
+    color: white;
+}
+.contrate{
+    background-color: #8a8a8a;
+}
+.servicos3{
+    background-color: #c6c6c6;
+    border-radius: 5px;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+.title1{
+    font-size: 50px;
+}
+.fundo1{
+    background-color: #d6d6da;
+}
+.fundo2{
+    background-color: #b4b4b7;
+}
+.certificado:hover{
+    width: 400px;
+    cursor: pointer;
+}
+#contato{
+    background-color: 
+}
